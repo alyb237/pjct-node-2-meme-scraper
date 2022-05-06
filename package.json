@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "type": "module",
   "main": "index.js",
-  "repository": "https://github.com/alyb237/pjct-node-2-meme-scraper.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alyb237/pjct-node-2-meme-scraper.git"
+  },
   "author": "alyb237 <alyb237@gmail.com>",
   "license": "MIT",
   "devDependencies": {
@@ -40,5 +43,18 @@
     "eslint-plugin-react": "7.29.4",
     "eslint-plugin-react-hooks": "4.5.0",
     "@typescript-eslint/utils": "5.22.0"
-  }
+  },
+  "dependencies": {
+    "got": "10.4.0",
+    "jsdom": "^19.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/alyb237/pjct-node-2-meme-scraper/issues"
+  },
+  "homepage": "https://github.com/alyb237/pjct-node-2-meme-scraper#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "description": ""
 }
